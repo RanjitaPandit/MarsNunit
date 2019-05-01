@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addCertificationToAdd" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[5]/div[1]/div[2]/div/table/thead/tr/th[4]/div</value>
+  </data>
+  <data name="addEducationToAdd" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/table/thead/tr/th[6]/div</value>
+  </data>
+  <data name="addFilledCertificationDetails" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[5]/div[1]/div[2]/div/div/div[3]/input[1]</value>
+  </data>
+  <data name="addFilledEducation" xml:space="preserve">
+    <value>//*[@id="account-profile-section"]/div/section[2]/div/div/div/div[3]/form/div[4]/div/div[2]/div/div/div[3]/div/input[1]</value>
+  </data>
+  <data name="addFilledSkill" xml:space="preserve">
+    <value>//span[@class='buttons-wrapper']//input[@class='ui teal button ']</value>
+  </data>
+  <data name="addNewEducation" xml:space="preserve">
+    <value>//div[@class='ui teal button']</value>
+  </data>
+  <data name="addNewSkill" xml:space="preserve">
+    <value>//div[@class='ui teal button']</value>
+  </data>
+  <data name="addNewSkillsToAdd" xml:space="preserve">
+    <value>//*[@id="account-profile-section"]/div/section[2]/div/div/div/div[3]/form/div[3]/div/div[2]/div/table/thead/tr/th[3]/div</value>
+  </data>
+  <data name="addSkillField" xml:space="preserve">
+    <value>//input[@name='name'][@type='text']</value>
+  </data>
+  <data name="addSkillValue" xml:space="preserve">
+    <value>Selenium Web driver</value>
+  </data>
+  <data name="availabilityDropDown" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/span/select</value>
+  </data>
+  <data name="availabilityFullTime" xml:space="preserve">
+    <value>Full Time</value>
+  </data>
+  <data name="availabilityHour1" xml:space="preserve">
+    <value>Less than 30hours a week</value>
+  </data>
+  <data name="availabilityHour2" xml:space="preserve">
+    <value>More than 30hours a week</value>
+  </data>
+  <data name="availabilityHour3" xml:space="preserve">
+    <value>As needed</value>
+  </data>
+  <data name="availabilityHourDD" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/span/select</value>
+  </data>
+  <data name="availabilityLink" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/span/i</value>
+  </data>
+  <data name="availabilityPartTime" xml:space="preserve">
+    <value>Part Time</value>
+  </data>
+  <data name="cancelEducation" xml:space="preserve">
+    <value>//input[@value='Cancel'][@class='ui button']</value>
+  </data>
+  <data name="cancelSkill" xml:space="preserve">
+    <value>//input[@class='ui button'][@value='Cancel']</value>
+  </data>
+  <data name="certificateField" xml:space="preserve">
+    <value>//input[@type='text'][@class='certification-award capitalize']</value>
+  </data>
+  <data name="certificateFieldValue" xml:space="preserve">
+    <value>ISTQB</value>
+  </data>
+  <data name="certificateFrom" xml:space="preserve">
+    <value>//input[@type='text'][@class='received-from capitalize']</value>
+  </data>
+  <data name="certificateFromValue" xml:space="preserve">
+    <value>ISTQB</value>
+  </data>
+  <data name="certificationTab" xml:space="preserve">
+    <value>//div[@class='ui top attached tabular menu']/a[@data-tab='fourth']</value>
+  </data>
+  <data name="certificationYear" xml:space="preserve">
+    <value>//select[@name='certificationYear'][@class='ui fluid dropdown']</value>
+  </data>
+  <data name="certifiedInYear" xml:space="preserve">
+    <value>2017</value>
+  </data>
+  <data name="chooseSkillDropdown" xml:space="preserve">
+    <value>//select[@class='ui fluid dropdown'][@name='level']</value>
+  </data>
+  <data name="chooseSkillValue1" xml:space="preserve">
+    <value>Beginner</value>
+  </data>
+  <data name="chooseSkillValue2" xml:space="preserve">
+    <value>Intermediate</value>
+  </data>
+  <data name="chooseSkillValue3" xml:space="preserve">
+    <value>Expert</value>
+  </data>
+  <data name="collegeName" xml:space="preserve">
+    <value>//input[@type='text'][@name='instituteName']</value>
+  </data>
+  <data name="collegeNameValue" xml:space="preserve">
+    <value>GIT</value>
+  </data>
+  <data name="countryCollegeValue" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="countryofCollege" xml:space="preserve">
+    <value>//select[@class='ui dropdown'][@name='country']</value>
+  </data>
+  <data name="degree" xml:space="preserve">
+    <value>//input[@type='text'][@name='degree']</value>
+  </data>
+  <data name="degreeValue" xml:space="preserve">
+    <value>Computer Science</value>
+  </data>
+  <data name="descriptionField" xml:space="preserve">
+    <value>//div[@class='field  ']/textarea</value>
+  </data>
+  <data name="descriptionIcon" xml:space="preserve">
+    <value>//h3[@class='ui dividing header']/span</value>
+  </data>
+  <data name="descriptionSave" xml:space="preserve">
+    <value>//button[@class='ui teal button'][@type='button']</value>
+  </data>
+  <data name="descriptionValue" xml:space="preserve">
+    <value>I am a Test Analyst with good knowledge of Selenium Web Driver and C sharp</value>
+  </data>
+  <data name="earnTargetDD" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[4]/div/span/select</value>
+  </data>
+  <data name="earnTargetLink" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[4]/div/span/i</value>
+  </data>
+  <data name="earnTargetVal1" xml:space="preserve">
+    <value>Less than $500 per month</value>
+  </data>
+  <data name="earnTargetVal2" xml:space="preserve">
+    <value>Between $500 and $1000 per month</value>
+  </data>
+  <data name="earnTargetVal3" xml:space="preserve">
+    <value>More than $1000 per month</value>
+  </data>
+  <data name="educationTab" xml:space="preserve">
+    <value>//div[@class='ui top attached tabular menu']/a[@data-tab='third']</value>
+  </data>
+  <data name="hoursLink" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/span/i</value>
+  </data>
+  <data name="profileTab" xml:space="preserve">
+    <value>//div[@class='ui eight item menu']/a[contains(@href,'/Account/Profile')]</value>
+  </data>
+  <data name="savedSkillPath" xml:space="preserve">
+    <value>//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[3]/div/div[2]/div/table/tbody[1]/tr/td[1]</value>
+  </data>
+  <data name="skillTab" xml:space="preserve">
+    <value>//div[@class='ui top attached tabular menu']/a[@data-tab='second']</value>
+  </data>
+  <data name="titile" xml:space="preserve">
+    <value>//select[@class='ui dropdown'][@name='title']</value>
+  </data>
+  <data name="titleValue" xml:space="preserve">
+    <value>B.Tech</value>
+  </data>
+  <data name="yearOfGrad" xml:space="preserve">
+    <value>//select[@class='ui dropdown'][@name='yearOfGraduation']</value>
+  </data>
+  <data name="yearofGradValue" xml:space="preserve">
+    <value>2019</value>
+  </data>
+</root>

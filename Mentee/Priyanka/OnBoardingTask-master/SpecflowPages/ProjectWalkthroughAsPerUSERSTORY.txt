@@ -1,0 +1,45 @@
+﻿********************************************************************************************************
+*****************************User Story Given For Onboarding Task*******************************
+Test User Story:
+Feature: SellerAdd Profile Details
+Priority: Major
+As a Seller
+I want the feature to add my Profile Details
+So that
+The people seeking for some skills can look into my details.
+Acceptance Criteria
+ Seller is able to add the Profile Details.
+ Seller is able to see the seller’s details on the Profile page.
+The task consists of two versions:
+Task 1: For the above User story, Follow BDD and write all the possible test cases on the Specflow
+Feature file.
+Task 2: Identify any 3 complex test cases from feature file and automate them.
+Use this Solution File to complete your tasks.
+Note: Please change the credentials according to your details on the solution file.
+
+**********************************************************************************************************************************************
+
+As per the above user story given for the onboarding task, I have followed the below steps:
+
+1)Created three test feature files
+->AddProfileDetails: This feature file contains scenarios for adding skill's details on Profile page.
+->AddShareSkills: This feature file contains scenario for adding more information about the seller including his skills.
+->AddSellerDetails: This feature file contains scenario of different seller.
+
+2)To support above features I have created some class files(under SpecflowPages->Utils), that contains functions related to the scenarios.
+->ProfileDetails.cs for AddProfileDetails feature.
+->ShareSkillDetails.cs and ManageListings.cs for AddShareSkills feature.
+->SecondUser.cs for AddSellerDetails feature.
+
+3)Following are some step definition files created for different features:
+->AddProfileDetails feature: AddSkills.cs, AddEducation.cs, AddCertification.cs, AddMoreDetails.cs, ProfileDescription.cs
+->AddShareSkills feature: ShareSkills.cs
+->AddSellerDetails feature: OtherSellerSearch
+
+4)Also, to get test data and XPaths I have used resource files as an Input Data file:
+->ProfileDetails.cs->ProfileDetailInput.resx
+->ShareSkillDetails.cs-> SkillsInput.resx and XPathInput.resx
+->ManageListings.cs->ListingsInput.resx
+->SecondUser.cs->SecondUserInput.resx
+
+************************************************************************************************************************************************
